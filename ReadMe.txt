@@ -18,7 +18,7 @@ A binary of armips v0.8 has been added to this repo.
 
    For default, the codes will be assembled at 0xF00000. 
 
-2. The codes assumes that you've expanded the battle script command table, 
+2. The codes assume that you've expanded the battle script command table, 
    and have the command "callasm" installed. 
    You can define the index of the command in "src/include/battle_script.h". 
 
