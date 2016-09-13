@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+﻿;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;Double Wild Battle in Firered;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -27,4 +27,9 @@ A binary of armips v0.8 has been added to this repo.
 
 3. The chance of triggering a double wild battle is calculated from the 21st 
    line in "src/MainFix.asm", which uses a bitmask so it can easily be changed. 
- 
+
+4. The free RAM space used is 0x203D900, which can be changed in the 2 skip 
+   related source files. 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;Special Thanks;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Against(神sok) for the skip hack in Emerald, please give credit to him if used. 

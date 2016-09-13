@@ -85,6 +85,18 @@ lsl r0, r0, #0x10
 .org 0x81D86AD
 .byte 0x28
 .word double_wild_switch_bs_fix
+;skip fix
+.org 0x801417E
+mov pc, r1
+lsl r0, r0, #0
+lsl r0, r0, #0
+lsl r0, r0, #0
+.org 0x80141B0
+.word skiphack
+.org 0x8019688
+ldr r0, =skipmsghack
+mov r15, r0
+.pool
 .org 0x8F00000
 .importobj "build/linked.o"
 .close
