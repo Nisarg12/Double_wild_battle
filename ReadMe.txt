@@ -18,17 +18,10 @@ A binary of armips v0.8 has been added to this repo.
 
    For default, the codes will be assembled at 0xF00000. 
 
-2. The codes assume that you've expanded the battle script command table, 
-   and have the command "callasm" installed. 
-   You can define the index of the command in "src/include/battle_script.h". 
-
-   For default, it's 0xF9 instead of 0xF8 as someone may want to port the cmdF8
-   in EM to FR.
-
-3. The chance of triggering a double wild battle is calculated from the 21st 
+2. The chance of triggering a double wild battle is calculated from the 21st 
    line in "src/MainFix.asm", which uses a bitmask so it can easily be changed. 
 
-4. The free RAM space used is 0x203D900, which can be changed in the 2 skip 
+3. The free RAM space used is 0x203D900, which can be changed in the 2 skip 
    related source files. 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;Special Thanks;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
