@@ -97,6 +97,9 @@ lsl r0, r0, #0
 ldr r0, =skipmsghack
 mov r15, r0
 .pool
+;shiny fix
+.org 0x8036082
+.halfword 0,0,0,0,0,0,0
 .org 0x8F00000
 .importobj "build/linked.o"
 .close
