@@ -10,8 +10,7 @@ But it may still be buggy. :/
 To compile this project, you need to install GNU make and DevkitARM, 
 and place a bpre0.gba in the extracted folder, and then perform a double 
 click on compile.bat/compile.sh. 
-A binary of armips v0.8 has been added to this repo. 
-(I guess you should have a 64-bit computer)
+A binary of armips (32-bit) v0.8 has been added to this repo. 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;How to Config?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 1. The free space offset is provided in the 88th line of the file insert.s. 
