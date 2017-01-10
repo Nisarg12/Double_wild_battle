@@ -100,6 +100,11 @@ mov r15, r0
 ;shiny fix
 .org 0x8036082
 .halfword 0,0,0,0,0,0,0
+;fish battle fix
+.org 0x8082fc0
+ldr r1, =double_wild_fish_fix+1
+bx r1
+.pool
 .org 0x8F00000
 .importobj "build/linked.o"
 .close

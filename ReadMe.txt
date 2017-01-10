@@ -13,7 +13,7 @@ click on compile.bat/compile.sh.
 A binary of armips (32-bit) v0.8 has been added to this repo. 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;How to Config?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-1. The free space offset is provided in the 88th line of the file insert.s. 
+1. The free space offset is provided in the 108th line of the file insert.s. 
 
    For default, the codes will be assembled at 0xF00000. 
 
