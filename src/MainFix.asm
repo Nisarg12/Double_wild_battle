@@ -68,7 +68,7 @@ ldr r1, =0x808310D
 bl bx_r1
 lsl r0, r0, #0x18
 cmp r0, #0
-beq back_to_make_first
+beq back_null
 
 make_second:
 ldr r0, [r7, #4]
@@ -83,6 +83,12 @@ pop {r1}
 mov r0, r1
 ldr r3, =0x8082AFF
 bx r3
+
+back_null:
+pop {r1}
+pop {r3}
+mov r8, r3
+pop {r4-r7, pc}
 
 normal_generate:
 pop {r6}
